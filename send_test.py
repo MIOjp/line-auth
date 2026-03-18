@@ -5,7 +5,7 @@ def send_kansu(target_email,auth_code):
     msg.set_content(f"あなたのコードは{auth_code}です")
     msg["Subject"]="コード送信"
     msg["From"]="miotikusyo@gmail.com"
-    msg["To"]="miotikusyo@gmail.com"
+    msg["To"]="a25dc002am@g.sugiyama-u.ac.jp"
     smtp_server="smtp.gmail.com"
     smtp_port=587
     sender_password="bmkc qek w jtvc ydgb"
